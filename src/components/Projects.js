@@ -21,7 +21,7 @@ const projects = [
     type: 'Web Development',
     description: 'Portfolio website built with React',
     image: WebImage1,
-    repoLink: 'https://github.com/yourusername/portfolio-website',
+    repoLink: 'https://github.com/CpoohZchala/My-Portfolio-React-Project',
   },
   {
     type: 'Web Development',
@@ -33,13 +33,13 @@ const projects = [
     type: 'App Development',
     description: 'Mango Plant Disease Detection Mobile App',
     image: AppImage1,
-    repoLink: 'https://github.com/CpoohZchala/Mamgo-Leaves-Disease-Ditection',
+    repoLink: 'https://github.com/CpoohZchala/Mango-Leaves-Disease-Ditection',
   },
   {
     type: 'App Development',
     description: 'Cassava Healthy Finder Mobile App',
     image: AppImage2,
-    repoLink: 'https://github.com/CpoohZchala/MainProject',
+    repoLink: 'https://github.com/CpoohZchala/Final-Group-Project',
   },
   {
     type: 'UI/UX Design',

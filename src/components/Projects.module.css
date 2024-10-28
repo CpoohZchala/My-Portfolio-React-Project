@@ -1,7 +1,7 @@
 .projects {
   padding: 20px;
-  background-color: black;
-  color:white;
+  background-color: #1a1a1a;
+  color: white;
 }
 
 .title {
@@ -23,6 +23,12 @@
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.projectItem:hover {
+  transform: translateY(-5px); /* Optional hover effect */
 }
 
 .projectImage {
@@ -37,16 +43,20 @@
   margin-bottom: 10px;
 }
 
+/* Enhanced view button style */
 .viewButton {
-  background-color: #007bff;
+  background-color: rgba(0, 123, 255, 0.8);
   color: white;
   padding: 10px 15px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.5);
 }
 
 .viewButton:hover {
-  background-color: #0056b3;
+  background-color: rgba(0, 123, 255, 1); /* Brighter color on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 123, 255, 0.6); /* More intense shadow on hover */
 }
