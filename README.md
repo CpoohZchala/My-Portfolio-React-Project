@@ -1,1 +1,1 @@
-# My-Portfolio-React-Project
+# My-Portfolio-MERN-Project
