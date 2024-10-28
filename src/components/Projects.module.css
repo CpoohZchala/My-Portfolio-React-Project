@@ -1,0 +1,52 @@
+.projects {
+  padding: 20px;
+  background-color: black;
+  color:white;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projectRow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.projectItem {
+  width: 30%; /* Adjust as needed to fit items in each row */
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.projectImage {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.projectDescription {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.viewButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.viewButton:hover {
+  background-color: #0056b3;
+}
