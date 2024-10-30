@@ -8,8 +8,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 function Hero() {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/21IT0479_JACP.Jayakodi.pdf';
-    link.download = '21IT0479_JACP.Jayakodi.pdf';
+    link.href = '/21IT0479_JACP_Jayakodi.pdf';
+    link.download = '21IT0479_JACP_Jayakodi.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
