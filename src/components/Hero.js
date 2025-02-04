@@ -8,8 +8,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 function Hero() {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/MyCV_ChalaniJayakodi.pdf';
-    link.download = 'MyCV_ChalaniJayakodi.pdf';
+    link.href = '/Chalani Jayakodi-ITUM.pdf';
+    link.download = 'Chalani Jayakodi-ITUM.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

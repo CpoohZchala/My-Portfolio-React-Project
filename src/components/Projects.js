@@ -41,6 +41,7 @@ const projects = [
     image: AppImage2,
     repoLink: 'https://github.com/CpoohZchala/Final-Group-Project',
   },
+  
   {
     type: 'UI/UX Design',
     description: 'Mobile App Design For Cassava Leaves Health Tracker',
@@ -53,6 +54,7 @@ const projects = [
     image: UIUXImage2,
     repoLink: 'https://www.figma.com/design/jTUlw1CMD1RWKiOs0o4fzh/HandyPro?node-id=726-188&t=yheMuNRuxlvktBSp-1',
   },
+  
 ];
 
 function Projects() {
