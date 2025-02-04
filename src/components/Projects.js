@@ -3,6 +3,7 @@ import styles from './Projects.module.css';
 import WebImage from '../Images/User.png'; 
 import WebImage1 from '../Images/Web.png'; 
 import WebImage2 from '../Images/todo.jpg';
+import WebImage3 from '../Images/logo1.png';
 import AppImage1 from '../Images/mobile.png';
 import AppImage2 from '../Images/App.png';
 import UIUXImage1 from '../Images/Cassava.png';
@@ -11,6 +12,12 @@ import UIUXImage2 from '../Images/Handy.png';
 // Define your projects data
 const projects = [
  
+  {
+    type: 'Web Development',
+    description: 'Service Me App',
+    image: WebImage3,
+    repoLink: 'https://github.com/VirtusaMax/serviceme-frontend',
+  },
   {
     type: 'Web Development',
     description: 'User Management System',
