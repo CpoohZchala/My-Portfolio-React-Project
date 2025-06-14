@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './About.module.css';
-import chalaniImage from '../Images/jayakodi.jpg'; // Adjust path if needed
+import chalaniImage from '../Images/jayakodi.jpg'; 
 
 function About() {
   return (

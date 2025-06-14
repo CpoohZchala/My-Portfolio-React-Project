@@ -26,7 +26,7 @@ function Contact() {
 
       if (response.ok) {
         console.log('Form data sent successfully');
-        // Clear the form
+      
         setFormData({
           fullName: '',
           email: '',
