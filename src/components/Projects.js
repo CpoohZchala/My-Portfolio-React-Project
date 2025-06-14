@@ -9,7 +9,6 @@ import AppImage2 from '../Images/App.png';
 import UIUXImage1 from '../Images/Cassava.png';
 import UIUXImage2 from '../Images/Handy.png';
 
-// Define your projects data
 const projects = [
  
   {
@@ -65,7 +64,6 @@ const projects = [
 ];
 
 function Projects() {
-  // Separate web and app projects
   const webProjects = projects.filter(project => project.type === 'Web Development');
   const appProjects = projects.filter(project => project.type === 'App Development');
 

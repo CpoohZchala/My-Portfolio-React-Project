@@ -17,7 +17,7 @@
 }
 
 .projectItem {
-  width: 30%; /* Adjust as needed to fit items in each row */
+  width: 30%;
   text-align: center;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -28,7 +28,7 @@
 }
 
 .projectItem:hover {
-  transform: translateY(-5px); /* Optional hover effect */
+  transform: translateY(-5px);
 }
 
 .projectImage {
@@ -43,7 +43,7 @@
   margin-bottom: 10px;
 }
 
-/* Enhanced view button style */
+
 .viewButton {
   background-color: rgba(0, 123, 255, 0.8);
   color: white;
@@ -56,7 +56,7 @@
 }
 
 .viewButton:hover {
-  background-color: rgba(0, 123, 255, 1); /* Brighter color on hover */
-  transform: translateY(-3px); /* Slight lift on hover */
-  box-shadow: 0 8px 16px rgba(0, 123, 255, 0.6); /* More intense shadow on hover */
+  background-color: rgba(0, 123, 255, 1);
+  transform: translateY(-3px); 
+  box-shadow: 0 8px 16px rgba(0, 123, 255, 0.6);
 }

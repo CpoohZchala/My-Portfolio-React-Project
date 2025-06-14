@@ -24,7 +24,7 @@
   }
 }
 
-/* Hero section */
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@
   transform: translateY(-3px);
 }
 
-/* Social icons */
+
 .socialIcons {
   display: flex;
   justify-content: center;
@@ -136,7 +136,7 @@
   transform: scale(1.1);
 }
 
-/* Hero image styles */
+
 .heroImage {
   flex: 1;
   position: relative;

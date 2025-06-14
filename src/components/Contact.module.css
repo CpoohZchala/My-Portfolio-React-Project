@@ -30,7 +30,6 @@
   min-height: 150px;
 }
 
-/* Enhanced submit button style */
 .submitButton {
   background-color: rgba(0, 176, 255, 0.8);
   color: white;
@@ -44,9 +43,9 @@
 }
 
 .submitButton:hover {
-  background-color: rgba(0, 176, 255, 1); /* Brighter color on hover */
-  transform: translateY(-3px); /* Slight lift on hover */
-  box-shadow: 0 8px 16px rgba(0, 176, 255, 0.6); /* More intense shadow on hover */
+  background-color: rgba(0, 176, 255, 1);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 176, 255, 0.6);
 }
 
 .contactInfo {
